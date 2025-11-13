@@ -68,7 +68,7 @@ void loop() {
   u8g2.setFont(u8g2_font_fur14_tf);
   u8g2.drawStr(0, 40, buffer);
 
-  if (speedKmph > speedLimit) {
+  if (speedKmph > speedLimit) { 
     u8g2.setFont(u8g2_font_6x13_tf);
     u8g2.drawStr(20, 60, "⚠ OVERSPEED!");
     digitalWrite(ledPin, HIGH);
