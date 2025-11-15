@@ -32,3 +32,7 @@ void loop() {
   client.println("</center></body></html>");
   client.stop();
 }
+
+//  or :
+//  for more good layout:
+// here is the code:
