@@ -7,3 +7,11 @@
 // Button  -> GPIO 14  (use INPUT_PULLUP - button connects to GND)
 // OLED I2C: SDA -> GPIO21, SCL -> GPIO22 (address 0x3C typical)
 
+#include <Wire.h>
+#include <Adafruit_GFX.h>
+#include <Adafruit_SSD1306.h>
+
+#define SCREEN_WIDTH 128
+#define SCREEN_HEIGHT 64
+Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
+
