@@ -35,8 +35,18 @@ void servo_init() {
 }
 
 void servo_set_angle(int angle) {
+    // Clamp angle between 0 and 180 degrees
+    if (angle < 0) angle = 0;
+    if (angle > 180) angle = 180;
+    
+    // Calculate pulse width in microseconds
     int pulse_width = SERVO_MIN_PULSE + (angle * (SERVO_MAX_PULSE - SERVO_MIN_PULSE)) / 180;
-    uint32_t duty = (pulse_width * ((1 << SERVO_RESOLUTION) - 1)) / 20000;
+    
+    // PWM period = 1/frequency in microseconds (50 Hz = 20000 µs)
+    // Duty cycle = (pulse_width / period) * max_duty_value
+    uint32_t max_duty = (1 << SERVO_RESOLUTION) - 1;
+    uint32_t duty = (pulse_width * max_duty) / 20000;
+    
     ledc_set_duty(SERVO_MODE, SERVO_CHANNEL, duty);
     ledc_update_duty(SERVO_MODE, SERVO_CHANNEL);
 }
