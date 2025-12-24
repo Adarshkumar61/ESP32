@@ -91,9 +91,83 @@ ESP32:
 
 ---
 
+
 ## ⚙️ Setup & Usage
 --------------------------------------------------
 
 ### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/Adarshkumar61/ESP32.git
+
+2️⃣ Open in Arduino IDE
+
+Install Arduino IDE
+
+Add ESP32 Board Package
+
+Select board: ESP32 Dev Module
+
+Select correct COM port
+
+3️⃣ Upload Code
+
+Open any .ino file from project folders
+
+Click Upload
+
+Monitor output using Serial Monitor
+```
+📸 Demo & Output
+
+Add real project images inside a demo/ folder
+
+![Sensor Demo](demo/sensor_demo.jpg)
+![Servo Demo](demo/servo_demo.jpg)
+![WiFi Demo](demo/wifi_demo.jpg)
+
+
+🧪 Expected Behavior
+
+✔ ESP32 initializes successfully
+
+✔ Sensors provide real-time data
+
+✔ Servos respond to control signals
+
+✔ Wi-Fi projects connect to network correctly
+
+📚 Learning Outcomes
+
+Embedded programming fundamentals
+
+ESP32 hardware interfacing
+
+PWM and GPIO control
+
+IoT basics using Wi-Fi
+
+Professional project organization
+
+🔮 Future Enhancements
+
+✨ MQTT-based IoT communication
+
+✨ OTA (Over-The-Air) updates
+
+✨ Bluetooth / BLE projects
+
+✨ Cloud dashboard integration
+
+✨ Robotics control integration
+
+👨‍💻 Author
+
+Adarsh Kumar
+🎓 BCA Student | 🤖 Robotics & AI Enthusiast
+
+🔗 GitHub: https://github.com/Adarshkumar61
+
+⭐ Final Note
+
+This repository is designed for learning, experimentation, and real-world embedded system development.
+Each project can be independently expanded into a full-scale IoT or robotics application.
