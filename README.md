@@ -28,4 +28,18 @@ Each project is written with clarity and modularity so it can be **easily unders
 
 ## 🗂️ Repository Structure
 --------------------------------------------------
+ESP32:
 
+│
+
+├── Sensor_Projects/ # Sensor-based ESP32 projects
+
+├── Servo_projects/ # Servo motor control projects
+
+├── WIFI_PROJECTS/ # Wi-Fi based ESP32 projects
+
+├── led_projects_with_full_resource/ # LED projects with resources
+
+├── README.md
+
+└── .gitignore
