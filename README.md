@@ -43,3 +43,57 @@ ESP32:
 ├── README.md
 
 └── .gitignore
+
+
+---
+
+## 🧰 Technologies & Tools
+--------------------------------------------------
+
+- 🧠 **ESP32 Microcontroller**
+- 🧾 **C / C++ (Arduino Framework)**
+- 🖥️ **Arduino IDE / PlatformIO**
+- 🔌 **GPIO, PWM, I2C, UART**
+- 📡 **Wi-Fi Communication**
+
+---
+
+## 🚀 Project Categories
+--------------------------------------------------
+
+### 🔹 Sensor Projects
+- Reading data from digital and analog sensors
+- Real-time data monitoring using Serial Monitor
+- Useful for environmental sensing and robotics feedback
+
+📌 _Example use cases:_ Temperature, distance, motion sensing
+
+---
+
+### 🔹 Servo Motor Projects
+- PWM-based servo motor control
+- Angle and direction control
+- Used in robotic arms, wheels, and mechanical movement
+
+---
+
+### 🔹 Wi-Fi Based Projects
+- ESP32 Wi-Fi connectivity
+- Sending and receiving data over network
+- Foundation for IoT and remote monitoring systems
+
+---
+
+### 🔹 LED Projects (With Resources)
+- Basic LED ON/OFF using GPIO
+- Understanding digital output control
+- Includes learning resources for beginners
+
+---
+
+## ⚙️ Setup & Usage
+--------------------------------------------------
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/Adarshkumar61/ESP32.git
